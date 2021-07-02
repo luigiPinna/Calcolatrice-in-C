@@ -1,0 +1,3 @@
+C:/Users/Administrator/Desktop/tnv/projects/Modulo8/calcolatrice_con_Git/cmake-build-debug/CMakeFiles/calcolatrice_con_Git.dir
+C:/Users/Administrator/Desktop/tnv/projects/Modulo8/calcolatrice_con_Git/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Administrator/Desktop/tnv/projects/Modulo8/calcolatrice_con_Git/cmake-build-debug/CMakeFiles/rebuild_cache.dir

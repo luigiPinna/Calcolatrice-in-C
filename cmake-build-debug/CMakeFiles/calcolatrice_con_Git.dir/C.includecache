@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Administrator/Desktop/tnv/projects/Modulo8/calcolatrice_con_Git/Libreria_Calcolatrice.h
+stdio.h
+-
+
+C:/Users/Administrator/Desktop/tnv/projects/Modulo8/calcolatrice_con_Git/main.c
+Libreria_Calcolatrice.h
+C:/Users/Administrator/Desktop/tnv/projects/Modulo8/calcolatrice_con_Git/Libreria_Calcolatrice.h
+
