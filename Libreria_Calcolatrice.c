@@ -1,8 +1,20 @@
-//
-// Created by Administrator on 02/07/2021.
-//
-
 #include "Libreria_Calcolatrice.h"
+
+//Funzione di input
+int menuCalcolatrice(){
+    int scelta;
+    printf("\tMENU");
+    printf("\n1) Addizione");
+    printf("\n2) Sottrazione");
+    printf("\n3) Moltiplicazione");
+    printf("\n4) Divisione");
+    printf("\n0) Esci");
+    printf("\nScelta:");
+    scanf("%d", &scelta);
+    return scelta;
+}
+
+//Funzioni di calcolo
 float addizione(float num1, float num2){
     return num1+num2;
 }

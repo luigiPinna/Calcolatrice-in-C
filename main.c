@@ -1,6 +1,5 @@
 #include "Libreria_Calcolatrice.h"
 
-int menuCalcolatrice();
 
 int main() {
     int sceltaMenu;
@@ -45,17 +44,6 @@ int main() {
 } while (sceltaMenu != ESCI);
     return 0;
 }
-int menuCalcolatrice(){
-    int scelta;
-    printf("\tMENU");
-    printf("\n1) Addizione");
-    printf("\n2) Sottrazione");
-    printf("\n3) Moltiplicazione");
-    printf("\n4) Divisione");
-    printf("\n0) Esci");
-    printf("\nScelta:");
-    scanf("%d", &scelta);
-    return scelta;
-}
+
 
 
