@@ -3,3 +3,9 @@
 //
 
 #include "Libreria_Calcolatrice.h"
+float addizione(float num1, float num2){
+    return num1+num2;
+}
+float sottrazione(float num1, float num2){
+    return num1-num2;
+}
