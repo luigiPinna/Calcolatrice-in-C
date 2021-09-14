@@ -35,6 +35,11 @@ int main() {
             scanf("%f", &num2);
             printf("Il risultato della divisione e': %.2f\n", divisione(num1,num2));
             break;
+        case RADICE_QUADRATA:
+            printf("Inserisci il numero per calcolare la sua radice quad.:");
+            scanf("%f", &num1);
+            printf("Il risultato della radice quadrata e': %.2f\n", radiceQuadrata(num1));
+            break;
         case ESCI:
             printf("Grazie. Arrivederci!\n");
             break;
