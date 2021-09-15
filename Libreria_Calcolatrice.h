@@ -2,13 +2,15 @@
 #define CALCOLATRICE_CON_GIT_LIBRERIA_CALCOLATRICE_H
 
 #include <stdio.h>
-typedef enum{ESCI, ADDIZIONE, SOTTRAZIONE, MOLTIPLICAZIONE, DIVISIONE}Operazione;
+typedef enum{ESCI, ADDIZIONE, SOTTRAZIONE, MOLTIPLICAZIONE, DIVISIONE, RADICE_QUADRATA, POTENZA}Operazione;
 
 //Funzione di input
 int menuCalcolatrice();
 //Funzioni di calcolo
 float addizione(float num1, float num2);
 float sottrazione(float num1, float num2);
-float moltiplicazione(float num1, float num2);
 float divisione(float num1, float num2);
+float moltiplicazione(float num1, float num2);
+float radiceQuadrata(float num1);
+float potenza(float num1, float num2);
 #endif //CALCOLATRICE_CON_GIT_LIBRERIA_CALCOLATRICE_H

@@ -40,6 +40,13 @@ int main() {
             scanf("%f", &num1);
             printf("Il risultato della radice quadrata e': %.2f\n", radiceQuadrata(num1));
             break;
+        case POTENZA:
+            printf("Inserisci la base:");
+            scanf("%f", &num1);
+            printf("Inserisci l'esponente:");
+            scanf("%f", &num2);
+            printf("Il risultato e': %.2f\n", potenza(num1,num2));
+            break;
         case ESCI:
             printf("Grazie. Arrivederci!\n");
             break;
