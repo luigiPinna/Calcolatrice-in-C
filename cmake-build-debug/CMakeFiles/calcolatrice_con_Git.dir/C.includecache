@@ -11,6 +11,10 @@ Libreria_Calcolatrice.h
 C:/Users/Administrator/Desktop/tnv/projects/Modulo8/calcolatrice_con_Git/Libreria_Calcolatrice.h
 math.h
 -
+stdbool.h
+-
+stdlib.h
+-
 
 C:/Users/Administrator/Desktop/tnv/projects/Modulo8/calcolatrice_con_Git/Libreria_Calcolatrice.h
 stdio.h

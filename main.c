@@ -4,6 +4,7 @@
 int main() {
     int sceltaMenu;
     float num1,num2;
+
     do{
     sceltaMenu=menuCalcolatrice();
     switch (sceltaMenu) {
@@ -46,6 +47,11 @@ int main() {
             printf("Inserisci l'esponente:");
             scanf("%f", &num2);
             printf("Il risultato e': %.2f\n", potenza(num1,num2));
+            break;
+        case PRIMO:
+            printf("Inserisci un numero per verificare se e' PRIMO:");
+            scanf("%f", &num1);
+            primo(isPrime(num1));
             break;
         case ESCI:
             printf("Grazie. Arrivederci!\n");
