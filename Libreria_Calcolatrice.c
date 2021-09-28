@@ -13,7 +13,7 @@ int menuCalcolatrice(){
     printf("\n4) Divisione");
     printf("\n5) Radice quardata");
     printf("\n6) Potenza");
-    printf("\n6) E' Primo?");
+    printf("\n7) E' Primo?");
     printf("\n0) Esci");
     printf("\nScelta:");
     scanf("%d", &scelta);
